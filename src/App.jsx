@@ -1,3 +1,12 @@
+import { GlobalStyle } from "./styles/GlobalStyle";
+import { Router } from "./routes";
+
 export const App = () => {
-  return <h1> Hello World</h1>;
+  return (
+    <>
+      <GlobalStyle />
+      <Router />
+      {/* <h1> Hello World</h1> */}
+    </>
+  );
 };
